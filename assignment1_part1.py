@@ -16,7 +16,7 @@ class ListDivideException\
 def testListDivide():
     try:
         #  If the condition is true, it does nothing and your program just continues to execute.
-        #  But if the assert condition evaluates to false, it raises an AssertionError error
+        #  But if the assert condition evaluates to false, it raises an AssertionError error.
         assert listDivide([1, 2, 3, 4, 5]) == 2
         assert listDivide([2, 4, 6, 8, 10]) == 5
         assert listDivide([30, 54, 63, 98, 100], divide=10) == 2
